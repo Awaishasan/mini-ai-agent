@@ -10,7 +10,7 @@ print("API key found:", GROQ_API_KEY is not None)
 # Groq client banao
 client = Groq(api_key=GROQ_API_KEY)
 messages = [
-    {"role": "user", "content": "What is Python?"}
+    {"role": "user", "content": "Tell me my server CPU capacity?"}
 ]
 
 try:
